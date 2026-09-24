@@ -8,7 +8,7 @@ This website showcases my professional journey, technical skills, certifications
 
 👨‍💻 About Me
 
-I am an IT Infrastructure professional with 5+ years of experience in enterprise IT operations, system administration, Microsoft 365, Windows Server, Microsoft Entra ID, Linux, networking, cloud infrastructure, backup, security, and automation.
+I am an IT Infrastructure professional with 4+ years of experience in enterprise IT operations, system administration, Microsoft 365, Windows Server, Microsoft Entra ID, Linux, networking, cloud infrastructure, backup, security, and automation.
 
 Alongside my infrastructure background, I am building hands-on expertise in modern Cloud and DevOps technologies including:
 

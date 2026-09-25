@@ -29,8 +29,7 @@ $(document).ready(function () {
     // typing Animation script 
 
     var typed = new Typed(".typing", {
-        strings: ["IT Infrastructure",
-            "Cloud / DevOps",
+        strings: ["Cloud / DevOps",
             "AWS / Azure",
             "Docker / Kubernetes",
             "Terraform / Jenkins",
@@ -95,4 +94,72 @@ $(document).ready(function () {
 //slide-up script
 $('.scroll-up-btn').click(function () {
     $('html').animate({ scrollTop: 0 });
+});
+
+
+// ===============================
+// PORTFOLIO SHARE OPTIONS
+// ===============================
+
+const portfolioURL = window.location.href.split("#")[0];
+const portfolioTitle = "Prashant Mahor - IT Infrastructure, Cloud & DevOps Portfolio";
+
+
+// Copy Portfolio Link
+document.getElementById("copy-link").addEventListener("click", function(e) {
+    e.preventDefault();
+
+    navigator.clipboard.writeText(portfolioURL)
+        .then(() => {
+            alert("Portfolio link copied!");
+        })
+        .catch(() => {
+            alert("Unable to copy link.");
+        });
+});
+
+
+// Share on LinkedIn
+document.getElementById("share-linkedin").addEventListener("click", function(e) {
+    e.preventDefault();
+
+    const linkedInURL =
+        "https://www.linkedin.com/sharing/share-offsite/?url=" +
+        encodeURIComponent(portfolioURL);
+
+    window.open(linkedInURL, "_blank");
+});
+
+
+// Share via Email
+document.getElementById("share-email").addEventListener("click", function(e) {
+    e.preventDefault();
+
+    const subject = encodeURIComponent(
+        "Prashant Mahor - Professional Portfolio"
+    );
+
+    const body = encodeURIComponent(
+        "Hi,\n\nPlease take a look at my professional portfolio:\n\n" +
+        portfolioURL +
+        "\n\nRegards,\nPrashant Mahor"
+    );
+
+    window.location.href =
+        `mailto:?subject=${subject}&body=${body}`;
+});
+
+
+// Share on WhatsApp
+document.getElementById("share-whatsapp").addEventListener("click", function(e) {
+    e.preventDefault();
+
+    const message = encodeURIComponent(
+        `${portfolioTitle}\n\n${portfolioURL}`
+    );
+
+    window.open(
+        `https://wa.me/?text=${message}`,
+        "_blank"
+    );
 });

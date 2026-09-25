@@ -16,7 +16,7 @@
 
 
     <!-- custom  css file link -->
-    <link rel="stylesheet" href="prash.css?v=2">
+    <link rel="stylesheet" href="prash.css?v=3">
 
 </head>
 
@@ -34,8 +34,8 @@
         <nav class="navbar">
             <a href="#home" class="icon"><i class="fas fa-home"></i> home</a>
             <a href="#about" class="icon"><i class="far fa-address-card"></i> about</a>
-            <a href="#certificates" class="icon"><i class="fas fa-scroll"></i> certificates</a>
             <a href="#projects" class="icon"><i class="fas fa-project-diagram"></i> projects</a>
+            <a href="#certificates" class="icon"><i class="fas fa-scroll"></i> certificates</a>
             <a href="#contact" class="icon"><i class="fas fa-mail-bulk"></i> contact</a>
 
         </nav>
@@ -44,17 +44,24 @@
 
         <div id="trigger" class="fas fa-share-alt"></div>
 
-        <menu class="open">
-            <a href="https://www.facebook.com/prashantmahor99/" class="action" target="_blank"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/prashantmahor99/" class="action" target="_blank"><i
-                    class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/prashantmahor3" class="action" target="_blank"><i
-                    class="fab fa-twitter"></i></a>
-            <a href="https://github.com/prashantmahor99" class="action" target="_blank"><i
-                    class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/prashantmahor" class="action" target="_blank"><i
-                    class="fab fa-linkedin"></i></a>
+        <menu>
+            <!-- Copy Portfolio Link -->
+            <a href="#" class="action" id="copy-link" title="Copy Portfolio Link" aria-label="Copy Portfolio Link">
+                <i class="fas fa-link"></i>
+            </a>
+            <!-- Share on LinkedIn -->
+            <a href="#" class="action" id="share-linkedin" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <!-- Share via Email -->
+            <a href="#" class="action" id="share-email" title="Share via Email" aria-label="Share via Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <!-- Share on WhatsApp -->
+            <a href="#" class="action" id="share-whatsapp" title="Share on WhatsApp" aria-label="Share on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
         </menu>
 
     </header>
@@ -69,15 +76,17 @@
         <div class="content">
             <span class="hello">Hello, I'm</span>
             <h3>Prashant <span>Mahor</span></h3>
-            <div class="text">Senior IT Executive | <span class="typing"></span></div>
+            <div class="text">Senior IT Executive | IT Infrastructure </div>
+            <div class="typing-line"><span class="typing"></span></div>
             <p class="hero-summary">
                 IT Infrastructure professional with 4+ years of experience across
-                Microsoft 365, Windows Server, Linux, networking, cloud infrastructure,
+                Microsoft 365, Windows Server, networking, cloud infrastructure,
                 security, backup, and automation.
             </p>
 
             <p class="hero-summary">
-                Currently expanding my hands-on expertise in AWS, Azure, Docker, Kubernetes, Terraform, Jenkins,
+                Currently strengthening my hands-on expertise in AWS, Azure, Linux, Docker, Kubernetes, Terraform,
+                Jenkins,
                 Git/GitHub, CI/CD, Python, and Infrastructure as Code through practical projects and continuous
                 learning.
             </p>
@@ -85,13 +94,13 @@
             <h5 class="what-i-do">What I Do</h5>
 
             <p class="hero-summary">
-                I build and manage secure, reliable, and scalable IT environments while
-                applying Cloud, DevOps, Automation, and AI-driven solutions to improve
+                I manage and support secure, reliable, and scalable IT environments while
+                leveraging Cloud, DevOps, Automation, and AI-driven solutions to improve
                 operational efficiency.
             </p>
 
 
-            <a href=#contact class="btn">Hire me</a>
+            <a href=#contact class="btn">Contact Me</a>
 
             <a href="pdf/Prashant_Mahor_ATS_Resume.pdf" class="btn secondary-btn" target="_blank">
                 View Resume
@@ -112,246 +121,687 @@
 
         <h1 class="heading"> about <span>me</span></h1>
 
+        <div class="about-intro">
+
+            <p>
+                I work across enterprise IT infrastructure and operations, supporting
+                Microsoft 365, Windows Server, Active Directory,
+                endpoint management, backup operations, networking, and day-to-day
+                business-critical IT services.
+            </p>
+
+            <p>
+                My focus is on maintaining secure, reliable, and standardized IT
+                environments, resolving infrastructure issues, improving operational
+                efficiency, and automating repetitive activities wherever possible.
+            </p>
+
+            <p>
+                Alongside my infrastructure responsibilities, I am building practical
+                Cloud and DevOps capabilities through hands-on projects, with the goal
+                of progressing toward a Cloud / DevOps-focused role.
+            </p>
+
+        </div>
+
         <div class="row">
 
             <div class="box">
-                <h3 class="title">coding skills</h3>
+                <h3 class="title">IT Infrastructure & Operations</h3>
                 <div class="progress">
-                    <h3> html <span>85%</span></h3>
+                    <h3> Microsoft 365 <span>75%</span></h3>
+                    <div class="bar"> <span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3> Microsoft Entra ID / Azure AD <span>65%</span></h3>
                     <div class="bar"> <span></span></div>
                 </div>
                 <div class="progress">
-                    <h3> css <span>75%</span></h3>
+                    <h3> Windows Server <span>50%</span></h3>
+                    <div class="bar"> <span></span></div>
+                </div>
+                <!-- <div class="progress">
+                    <h3> Linux Administration <span>67%</span>
+                    </h3>
+                    <div class="bar"> <span></span></div>
+                </div> -->
+                <div class="progress">
+                    <h3> Endpoint Management <span>67%</span>
+                    </h3>
                     <div class="bar"> <span></span></div>
                 </div>
                 <div class="progress">
-                    <h3> java script <span>50%</span></h3>
+                    <h3> Networking & Firewall <span>40%</span>
+                    </h3>
                     <div class="bar"> <span></span></div>
                 </div>
                 <div class="progress">
-                    <h3> python <span>67%</span></h3>
+                    <h3> Backup & Disaster Recovery <span>80%</span>
+                    </h3>
                     <div class="bar"> <span></span></div>
                 </div>
+                <!-- <div class="progress">
+                    <h3> Cloud Infrastructure<span>67%</span>
+                    </h3>
+                    <div class="bar"> <span></span></div>
+                </div> -->
             </div>
 
             <div class="box">
-                <h3 class="title"> other skills</h3>
+                <h3 class="title"> Cloud, DevOps & Automation</h3>
                 <div class="progress">
-                    <h3> web development <span>65%</span></h3>
+                    <h3> AWS / Azure <span>65%</span></h3>
                     <div class="bar"> <span></span></div>
                 </div>
                 <div class="progress">
-                    <h3> ethical hacking <span>15%</span></h3>
+                    <h3> Docker & Kubernetes <span>25%</span></h3>
                     <div class="bar"> <span></span></div>
                 </div>
                 <div class="progress">
-                    <h3> basic java <span>40%</span></h3>
+                    <h3> Terraform & Iac<span>45%</span></h3>
                     <div class="bar"> <span></span></div>
                 </div>
                 <div class="progress">
-                    <h3> wordpress <span>77%</span></h3>
+                    <h3> Git & GitHub <span>50%</span></h3>
                     <div class="bar"> <span></span></div>
                 </div>
+                <div class="progress">
+                    <h3> Jenkins & CI/CD <span>40%</span></h3>
+                    <div class="bar"> <span></span></div>
+                </div>
+                <div class="progress">
+                    <h3> Python & Automation <span>70%</span></h3>
+                    <div class="bar"> <span></span></div>
+                </div>
+
+
             </div>
 
-            <div class="box">
-                <h3 class="title">experience</h3>
-                <div class="exp-box">
-                    <h3> no work experience </h3>
-                    <p> i am a fresher</p>
+            <div class="career-section">
+
+                <h2 class="career-heading">Professional Experience</h2>
+
+                <div class="experience-card">
+
+                    <div class="job-item">
+                        <div class="job-top">
+                            <div>
+                                <h3>Senior IT Executive – IT Infrastructure</h3>
+                                <h4>Jakson Group | Noida</h4>
+                            </div>
+
+                            <span class="job-date">2024 – Present</span>
+                        </div>
+
+                        <p>
+                            Managing and supporting enterprise IT infrastructure across
+                            Microsoft 365, Windows Server, Microsoft Entra ID, networking,
+                            firewall, endpoint management, backup systems, cloud services,
+                            security, and day-to-day IT operations.
+                        </p>
+
+                        <div class="job-tags">
+                            <span>Microsoft 365</span>
+                            <span>Windows Server</span>
+                            <span>Entra ID</span>
+                            <span>Networking</span>
+                            <span>Cloud</span>
+                            <span>Automation</span>
+                        </div>
+                    </div>
+
+
+                    <div class="job-divider"></div>
+
+
+                    <div class="job-item">
+                        <div class="job-top">
+                            <div>
+                                <h3>Engineer – IT / Systems & Network Support</h3>
+                                <h4>UKB Electronics Pvt. Ltd. | Noida</h4>
+                            </div>
+
+                            <span class="job-date">2022 – 2024</span>
+                        </div>
+
+                        <p>
+                            Supported Windows systems, enterprise networks, routers,
+                            switches, firewalls, Active Directory, SAP and SharePoint users,
+                            NAS storage, and day-to-day IT infrastructure operations.
+                        </p>
+
+                        <div class="job-tags">
+                            <span>Windows</span>
+                            <span>Active Directory</span>
+                            <span>Networking</span>
+                            <span>Firewall</span>
+                            <span>SAP Support</span>
+                            <span>SharePoint</span>
+                        </div>
+                    </div>
+
                 </div>
-                <!-- <div class="exp-box">
-                <h3> no work experience </h3>
-                <p> i am a fresher</p>
-            </div> -->
-                <!-- <div class="exp-box">
-                <h3> no work experience </h3>
-                <p> i am a fresher</p>
-            </div> -->
-            </div>
-            <div class="box">
-                <h3 class="title">education</h3>
-                <div class="exp-box">
-                    <h3> mastnath university </h3>
-                    <p> 2018-2021 | BCA graduate | 60.1% .</p>
+                <h2 class="career-heading education-heading">Education</h2>
+
+                <div class="education-card">
+                    <div>
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <p>Mastnath University, Rohtak</p>
+                    </div>
+
+                    <span class="education-date">2018 – 2021</span>
                 </div>
-                <div class="exp-box">
-                    <h3> govt. senior secondary school </h3>
-                    <p> 2017-2018 | Class 12 <sup>th</sup> | non-med | 62% .</p>
-                </div>
-                <div class="exp-box">
-                    <h3> govt. boys senior secondary school </h3>
-                    <p> class 10 <sup>th</sup> | 59% .</p>
-                </div>
+
             </div>
 
-        </div>
-
-        <div class="download">
+            <!-- <div class="download">
             <a href="pdf/prashant  RESUME.pdf" class="btn" download> download CV </a>
-        </div>
+        </div> -->
 
     </section>
 
     <!-- about section ends  -->
 
-    <!-- certificates section starts  -->
-
-    <section class="certificates" id="certificates">
-
-        <h1 class="heading"> <span>my</span> certificates </h1>
-
-        <div class="button-container">
-            <div class="btn" data-filter="all">all</div>
-            <div class="btn" data-filter="udemy">udemy</div>
-            <div class="btn" data-filter="techLearn">techLearn</div>
-            <div class="btn" data-filter="greatlearning">great learning</div>
-            <div class="btn" data-filter="ISRO">IIRS/ISRO</div>
-        </div>
-
-        <div class="image-container">
-
-            <div class="box udemy">
-                <img src="images/ethical hacking udemy.jpg" alt="">
-                <div class="info">
-                    <h3>certification of completion</h3>
-                    <p>the complete ethecal hacking course : beginner to advanced .</p>
-                </div>
-            </div>
-
-            <div class="box udemy">
-                <img src="images/python udemy1.jpg" alt="">
-                <div class="info">
-                    <h3>certification of completion</h3>
-                    <p>complete python developer in 2020 : zero to mastery .</p>
-                </div>
-            </div>
-
-            <div class="box techLearn">
-                <img src="images/techlearn nasa1.jpg" alt="">
-                <div class="info">
-                    <h3>certificate of attendence</h3>
-                    <p>how nasa auto colourise image with deep learning .</p>
-                </div>
-            </div>
-
-            <div class="box techLearn">
-                <img src="images/techlearn self driving1.jpg" alt="">
-                <div class="info">
-                    <h3>certificate of attendence</h3>
-                    <p>how tesla self driving car works .</p>
-                </div>
-            </div>
-
-            <div class="box techLearn">
-                <img src="images/certificate python project.jpg" alt="">
-                <div class="info">
-                    <h3>certificate of attendence</h3>
-                    <p>build your first python ptoject-personal chat assistance .</p>
-                </div>
-            </div>
-
-            <div class="box greatlearning">
-                <img src="images/python great learn1.jpg" alt="">
-                <div class="info">
-                    <h3>certificate of completion</h3>
-                    <p>python programming (BASIC) .</p>
-                </div>
-            </div>
-
-            <div class="box ISRO">
-                <img src="images/nasa1.jpg" alt="">
-                <div class="info">
-                    <h3>certificate of participation</h3>
-                    <p>machine learning to deep learning: a journey for remote sensing data classification .</p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- certificates section ends  -->
-
     <!-- projects scetion starts  -->
 
     <section class="projects" id="projects">
 
-        <h1 class="heading"> <span>my</span> projects </h1>
+        <h1 class="heading"> <span>FEATURED</span> PROJECTS </h1>
 
-        <div class="box-container">
+        <p class="projects-intro">
+            Hands-on projects across Cloud, DevOps, Infrastructure as Code,
+            Containerization, CI/CD, Linux, and Automation.
+        </p>
 
-            <div class="box">
-                <span class="number">1</span>
-                <img src="images/s6.png" alt="logo">
-                <h3> website project </h3>
-                <p> <span>prashant</span> mahor</p>
-                <p> <span>age:</span> 23</p>
-                <p> <span>gender:</span> male</p>
-                <p> <span>hometown:</span> bhiwani, haryana</p>
-                <p> <span>country:</span> india</p>
-                <p> <span>language:</span> hindi, english, punjabi</p>
+        <div class="projects-grid">
+
+            <!-- AI Vendor Negotiation Agent -->
+            <div class="project-card">
+                <div class="project-number">01</div>
+
+                <h3>AI Vendor Negotiation Agent</h3>
+
+                <p>
+                    Python-based procurement automation solution for RFQ communication,
+                    quotation extraction, vendor comparison, negotiation, and reporting.
+                </p>
+
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Outlook</span>
+                    <span>Excel</span>
+                    <span>PDF</span>
+                    <span>Automation</span>
+                </div>
+
+                <a href="https://github.com/prashantmahor99/Project_AI-Vendor-Negotiation-Agent" target="_blank"
+                    class="project-link">
+                    View on GitHub →
+                </a>
             </div>
 
+
+            <!-- CI/CD -->
+            <div class="project-card">
+                <div class="project-number">02</div>
+
+                <h3>CI/CD Pipeline using Jenkins, Docker & Kubernetes</h3>
+
+                <p>
+                    Built a CI/CD workflow integrating GitHub, Jenkins, Docker, and
+                    Kubernetes for application build, containerization, and deployment.
+                </p>
+
+                <div class="project-tech">
+                    <span>Jenkins</span>
+                    <span>Docker</span>
+                    <span>Kubernetes</span>
+                    <span>GitHub</span>
+                    <span>CI/CD</span>
+                </div>
+
+                <a href="https://github.com/prashantmahor99/DevOps_Basic_CICD-Projects" target="_blank"
+                    class="project-link">
+                    View on GitHub →
+                </a>
+            </div>
+
+
+            <!-- Terraform -->
+            <div class="project-card">
+                <div class="project-number">03</div>
+
+                <h3>AWS Infrastructure Automation using Terraform</h3>
+
+                <p>
+                    Provisioned AWS infrastructure including VPC, subnets, route tables,
+                    security groups, Internet Gateway, and EC2 using Infrastructure as Code.
+                </p>
+
+                <div class="project-tech">
+                    <span>Terraform</span>
+                    <span>AWS</span>
+                    <span>EC2</span>
+                    <span>VPC</span>
+                    <span>IaC</span>
+                </div>
+
+                <a href="https://github.com/prashantmahor99/DevOps_Basic_Terraform-Projects" target="_blank"
+                    class="project-link">
+                    View on GitHub →
+                </a>
+            </div>
+
+
+            <!-- Kubernetes -->
+            <div class="project-card">
+                <div class="project-number">04</div>
+
+                <h3>Kubernetes Deployment Projects</h3>
+
+                <p>
+                    Hands-on Kubernetes projects covering Pods, Deployments,
+                    ReplicaSets, Services, ConfigMaps, Secrets, storage, and scaling.
+                </p>
+
+                <div class="project-tech">
+                    <span>Kubernetes</span>
+                    <span>Pods</span>
+                    <span>Services</span>
+                    <span>Deployments</span>
+                </div>
+
+                <a href="https://github.com/prashantmahor99/DevOps_Basic_K8s" target="_blank" class="project-link">
+                    View on GitHub →
+                </a>
+            </div>
+
+
+            <!-- Docker -->
+            <div class="project-card">
+                <div class="project-number">05</div>
+
+                <h3>Docker Containerization Projects</h3>
+
+                <p>
+                    Practical Docker projects covering Dockerfiles, images,
+                    containers, networking, registries, and application deployment.
+                </p>
+
+                <div class="project-tech">
+                    <span>Docker</span>
+                    <span>Containers</span>
+                    <span>Dockerfile</span>
+                    <span>Registry</span>
+                </div>
+
+                <a href="https://github.com/prashantmahor99/DevOps_Basic_Docker-Projects" target="_blank"
+                    class="project-link">
+                    View on GitHub →
+                </a>
+            </div>
+
+
+            <!-- AWS -->
+            <div class="project-card">
+                <div class="project-number">06</div>
+
+                <h3>AWS Cloud & DevOps Projects</h3>
+
+                <p>
+                    Hands-on AWS projects covering compute, networking, storage,
+                    access management, security, and core Cloud/DevOps practices.
+                </p>
+
+                <div class="project-tech">
+                    <span>AWS</span>
+                    <span>EC2</span>
+                    <span>S3</span>
+                    <span>VPC</span>
+                    <span>IAM</span>
+                    <span>ECS</span>
+                </div>
+
+                <a href="https://github.com/prashantmahor99/DevOps_Basic_AWS" target="_blank" class="project-link">
+                    View on GitHub →
+                </a>
+            </div>
+
+        </div>
+
+        <div class="projects-more">
+            <a href="https://github.com/prashantmahor99?tab=repositories" target="_blank" class="btn">
+                View All Projects on GitHub
+            </a>
         </div>
 
     </section>
 
     <!-- projects section ends  -->
 
+    <section class="certificates" id="certificates">
 
-    <!-- contact section starts  -->
+        <h1 class="heading"><span>My</span> Certifications</h1>
 
-    <section class="contact" id="contact">
+        <p class="certificates-intro">
+            Selected certifications across DevOps, Cloud, AI, MLOps,
+            Data, Python and Automation.
+        </p>
 
-        <h1 class="heading"> contact <span>me</span></h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fas fa-phone"></i>
-                <h3>my number</h3>
-                <p>+91 9821906172</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-envelope"></i>
-                <h3>my email</h3>
-                <p>mahorprashant2@gmail.com</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>my location</h3>
-                <p>north west, delhi - 110086</p>
-            </div>
-
+        <!-- FILTER BUTTONS -->
+        <div class="button-container">
+            <div class="btn active" data-filter="all">All</div>
+            <div class="btn" data-filter="devops">DevOps</div>
+            <div class="btn" data-filter="ai">AI & Agentic AI</div>
+            <div class="btn" data-filter="data">Data & MLOps</div>
+            <div class="btn" data-filter="programming">Programming</div>
         </div>
 
-        <div class="row">
 
-            <form action="contact.php" method="post">
-                <div class="inputBox">
-                    <input type="text" name="name" placeholder="name" required>
-                    <input type="email" name="email" placeholder="email" required>
+        <div class="image-container">
+
+            <!-- 01 DEVOPS -->
+            <div class="box devops">
+                <img src="images/devops-tutedude.jpg" alt="DevOps Course Certificate">
+
+                <div class="info">
+                    <h3>DevOps Course</h3>
+                    <p>Tutedude • 2026</p>
+
+                    <div class="cert-tags">
+                        <span>DevOps</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>Jenkins</span>
+                        <span>Terraform</span>
+                    </div>
+
+                    <a href="images/devops-tutedude.jpg" target="_blank" class="view-cert">View Certificate →</a>
                 </div>
-                <input type="text" name="subject" placeholder="subject" required>
-                <textarea name="message" cols="30" rows="10" placeholder="message" required></textarea>
-                <button class="btn" value="submit"> send message </button>
-            </form>
+            </div>
 
-            <iframe class="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.6575709588215!2d77.07128351445823!3d28.69988823778141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d042749c8fa5b%3A0xc0e3c38ce3c3002e!2sBlock%20D3%2C%20Block%20D%2C%20Sultanpuri%2C%20Delhi%2C%20110086!5e0!3m2!1sen!2sin!4v1635964898499!5m2!1sen!2sin"
-                allowfullscreen="" loading="lazy"></iframe>
+
+            <!-- 02 AGENTIC AI -->
+            <div class="box ai">
+                <img src="images/agentic-ai-365.jpg" alt="Intro to AI Agents and Agentic AI Certificate">
+
+                <div class="info">
+                    <h3>Intro to AI Agents and Agentic AI</h3>
+                    <p>365 Data Science • 2026</p>
+
+                    <div class="cert-tags">
+                        <span>AI Agents</span>
+                        <span>Agentic AI</span>
+                        <span>LLM</span>
+                        <span>Automation</span>
+                    </div>
+
+                    <a href="images/agentic-ai-365.jpg" target="_blank" class="view-cert">View Certificate →</a>
+                </div>
+            </div>
+
+
+            <!-- 03 LANGGRAPH -->
+            <div class="box ai">
+                <img src="images/langgraph-365.jpg" alt="Conversational AI Memory with LangGraph Certificate">
+
+                <div class="info">
+                    <h3>Conversational AI Memory with LangGraph</h3>
+                    <p>365 Data Science • 2026</p>
+
+                    <div class="cert-tags">
+                        <span>LangGraph</span>
+                        <span>AI Agents</span>
+                        <span>Memory</span>
+                        <span>GenAI</span>
+                    </div>
+
+                    <a href="images/langgraph-365.jpg" target="_blank" class="view-cert">View Certificate →</a>
+                </div>
+            </div>
+
+
+            <!-- 04 MLOPS -->
+            <div class="box data">
+                <img src="images/mlops-365.jpg" alt="Fully Automated MLOps Certificate">
+
+                <div class="info">
+                    <h3>Fully Automated MLOps</h3>
+                    <p>365 Data Science • 2026</p>
+
+                    <div class="cert-tags">
+                        <span>MLOps</span>
+                        <span>Machine Learning</span>
+                        <span>Automation</span>
+                        <span>AI</span>
+                    </div>
+
+                    <a href="images/mlops-365.jpg" target="_blank" class="view-cert">View Certificate →</a>
+                </div>
+            </div>
+
+
+            <!-- 05 DATA ARCHITECTURE -->
+            <div class="box data">
+                <img src="images/data-architecture-365.jpg" alt="Introduction to Data Architecture Certificate">
+
+                <div class="info">
+                    <h3>Introduction to Data Architecture</h3>
+                    <p>365 Data Science • 2026</p>
+
+                    <div class="cert-tags">
+                        <span>Data Architecture</span>
+                        <span>Data</span>
+                        <span>Cloud</span>
+                    </div>
+
+                    <a href="images/data-architecture-365.jpg" target="_blank" class="view-cert">View Certificate →</a>
+                </div>
+            </div>
+
+
+            <!-- 06 MACHINE LEARNING -->
+            <div class="box data">
+                <img src="images/ml-deep-dive-365.jpg" alt="Machine Learning Deep Dive Certificate">
+
+                <div class="info">
+                    <h3>Machine Learning Deep Dive</h3>
+                    <p>365 Data Science • 2026</p>
+
+                    <div class="cert-tags">
+                        <span>Machine Learning</span>
+                        <span>Python</span>
+                        <span>AI</span>
+                    </div>
+
+                    <a href="images/ml-deep-dive-365.jpg" target="_blank" class="view-cert">View Certificate →</a>
+                </div>
+            </div>
+
+
+            <!-- 07 ISRO / IIRS -->
+            <div class="box data">
+                <img src="images/isro-ml.jpg" alt="IIRS ISRO Machine Learning Certificate">
+
+                <div class="info">
+                    <h3>Machine Learning to Deep Learning</h3>
+                    <p>IIRS / ISRO • 2021</p>
+
+                    <div class="cert-tags">
+                        <span>Machine Learning</span>
+                        <span>Deep Learning</span>
+                        <span>Remote Sensing</span>
+                    </div>
+
+                    <a href="images/isro-ml.jpg" target="_blank" class="view-cert">View Certificate →</a>
+                </div>
+            </div>
+
+
+            <!-- 08 PYTHON -->
+            <div class="box programming">
+                <img src="images/python-udemy.jpg" alt="Python Developer Certificate">
+
+                <div class="info">
+                    <h3>Complete Python Developer</h3>
+                    <p>Udemy • 2020</p>
+
+                    <div class="cert-tags">
+                        <span>Python</span>
+                        <span>Programming</span>
+                        <span>Automation</span>
+                    </div>
+
+                    <a href="images/python-udemy.jpg" target="_blank" class="view-cert">View Certificate →</a>
+                </div>
+            </div>
+
+
+            <!-- 09 ETHICAL HACKING -->
+            <div class="box programming">
+                <img src="images/ethical-hacking-udemy.jpg" alt="Ethical Hacking Certificate">
+
+                <div class="info">
+                    <h3>Complete Ethical Hacking Course</h3>
+                    <p>Udemy • 2020</p>
+
+                    <div class="cert-tags">
+                        <span>Security</span>
+                        <span>Networking</span>
+                        <span>Ethical Hacking</span>
+                    </div>
+
+                    <a href="images/ethical-hacking-udemy.jpg" target="_blank" class="view-cert">View Certificate →</a>
+                </div>
+            </div>
 
         </div>
+
     </section>
 
-    <!-- contact section ends  -->
+    <!-- certificates section ends -->
+
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact <span>me</span></h1>
+
+        <p class="contact-intro">
+            Interested in discussing IT Infrastructure, Cloud, DevOps,
+            Automation, or potential opportunities? Let's connect.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="mailto:mahorprashant2@gmail.com" class="contact-link-card">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3>Email</h3>
+                    <p>mahorprashant2@gmail.com</p>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/prashantmahor" target="_blank" class="contact-link-card">
+
+                <i class="fab fa-linkedin-in"></i>
+
+                <div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect professionally</p>
+                </div>
+            </a>
+
+            <a href="https://github.com/prashantmahor99" target="_blank" class="contact-link-card">
+
+                <i class="fab fa-github"></i>
+
+                <div>
+                    <h3>GitHub</h3>
+                    <p>View my projects</p>
+                </div>
+            </a>
+
+            <div class="contact-link-card">
+
+                <i class="fas fa-map-marker-alt"></i>
+
+                <div>
+                    <h3>Location</h3>
+                    <p>Delhi NCR, India</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-main">
+
+            <!-- Contact Form -->
+            <div class="contact-form-card">
+
+                <h2>Send Me a Message</h2>
+
+                <p>
+                    Have an opportunity, project, or professional query?
+                    Feel free to reach out.
+                </p>
+
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+                    <div class="input-row">
+
+                        <input type="text" name="name" placeholder="Your Name" required>
+
+                        <input type="email" name="email" placeholder="Your Email" required>
+
+                    </div>
+
+                    <input type="text" name="subject" placeholder="Subject" required>
+
+                    <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- Connect Card -->
+            <div class="connect-card">
+                <div class="connect-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+
+                <h2>Let's Connect</h2>
+
+                <p>
+                    Open to professional conversations, collaboration,
+                    and opportunities across IT Infrastructure,
+                    Cloud, DevOps and Automation.
+                </p>
+
+                <div class="connect-tags">
+                    <span>IT Infrastructure</span>
+                    <span>Cloud</span>
+                    <span>DevOps</span>
+                    <span>Automation</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- contact section ends -->
 
     <!-- footer section starts  -->
 
-    <div class="footer">created by <span>mr. prashant mahor</span> | 2021 all rights reserved!</div>
+    <div class="footer">Designed & Built by<span> prashant mahor</span> • 2026</div>
 
 
 
@@ -366,7 +816,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- custom js file link -->
-    <script src="prash.js?v=2"></script>
+    <script src="prash.js?v=3"></script>
 
 </body>
 

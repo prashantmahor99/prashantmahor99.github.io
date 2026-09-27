@@ -1732,7 +1732,7 @@ menu .action:hover {
 menu .action {
     box-sizing: border-box !important;
 
-    border: .2rem solid var(--main-color) !important;
+    border: .2rem solid var(--secondary-text-color) !important;
     background: var(--primary-bg-color) !important;
 
     display: grid !important;

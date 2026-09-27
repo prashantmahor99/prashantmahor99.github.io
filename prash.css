@@ -1767,7 +1767,7 @@ menu .action i {
 /* Hover - Laptop/Desktop */
 menu .action:hover {
     background: var(--secondary-bg-color) !important;
-    border-color: var(--main-color) !important;
+    border-color: var(--secondary-text-color) !important;
 
     box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.18);
 }
@@ -1793,7 +1793,7 @@ menu .action:hover {
 @media (max-width: 600px) {
 
     menu .action {
-        border: .2rem solid var(--main-color) !important;
+        border: .2rem solid var(--secondary-text-color) !important;
         box-shadow: 0 .25rem .6rem rgba(0, 0, 0, 0.12);
     }
 

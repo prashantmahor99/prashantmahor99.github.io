@@ -1683,6 +1683,38 @@ menu .action:hover {
     }
 }
 
+@media (max-width: 600px) {
+
+    .certificates .image-container {
+        padding: 1rem;
+    }
+
+    .certificates .image-container .box {
+        width: 100%;
+        max-width: 38rem;
+
+        height: auto;              /* IMPORTANT */
+        padding: .8rem;
+
+        background: var(--primary-bg-color);
+        border: .2rem solid var(--secondary-text-color);
+        border-radius: .8rem;
+
+        box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.12);
+        box-sizing: border-box;
+
+        overflow: hidden;
+    }
+
+    .certificates .image-container .box img {
+        width: 100%;
+        height: auto;              /* IMPORTANT */
+        object-fit: contain;
+        display: block;
+        border-radius: .4rem;
+    }
+}
+
 
 .connect-tags{
     display:flex;

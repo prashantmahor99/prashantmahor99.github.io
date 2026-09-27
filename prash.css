@@ -118,6 +118,9 @@ section {
 }
 
 
+/*MENU/NAV BAR SECTION START*/
+
+
 #menu {
     font-size: 2rem;
     background: var(--main-color);
@@ -184,6 +187,11 @@ section {
     opacity: 1;
 }
 
+/*MENU/NAV BAR SECTION END*/
+
+
+/*HOME SECTION START*/
+
 .home {
     min-height: 100vh;
     display: flex;
@@ -197,8 +205,6 @@ section {
 .home .imag {
     flex: 0 1 36rem;
     padding: 0;
-    /* flex: 1 1 40rem; */
-    /* padding: 1rem; */
     text-align: center;
 }
 
@@ -210,35 +216,6 @@ section {
     border-bottom: 3rem solid var(--main-color);
     border-left: 3rem solid var(--main-color);
     border-radius: .5rem;
-    /* width: 100%;
-    max-width: 36rem;
-    height: 46rem;
-    object-fit: cover;
-
-    /* Thin half-half border */
-    /* border-top: 8px solid #ffffff;
-    border-right: 8px solid #ffffff;
-    border-bottom: 8px solid var(--main-color);
-    border-left: 8px solid var(--main-color);
-
-    border-radius: 2rem;
-    box-sizing: border-box;
-
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12); */
-
-
-
-
-    /* width: 100%;
-    max-width: 36rem;
-    height: 46rem;
-    object-fit: cover;
-    border: none;
-    border-radius: 2rem;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); */
-
-
-
 }
 
 
@@ -246,8 +223,6 @@ section {
     flex: 1 1 55rem;
     max-width: 75rem;
     padding: 1rem;
-    /* flex: 1 1 40rem;
-    padding: 1rem; */
 }
 
 .home .content .hello {
@@ -259,11 +234,6 @@ section {
     margin-bottom: 0.5rem;
     text-transform: none;
     line-height: 1.15;
-
-    /* display: inline-block;
-    padding: 1rem 0;
-    font-size: 3.9rem;
-    color: var(--secondary-text-color); */
 }
 
 .home .content h3 {
@@ -273,9 +243,6 @@ section {
     color: var(--primary-text-color);
     margin-bottom: 1rem;
     text-transform: none;
-    /* line-height: 1; */
-    /* color: var(--primary-text-color);
-    font-size: 5rem; */
 }
 
 .home .content h3 span {
@@ -308,10 +275,6 @@ section {
     text-transform: none;
     min-height: 2.2rem;
     line-height: 1.2;
-
-    /* font-size: 2rem;    
-    text-decoration: solid;
-     */
 }
 
 .home .content .text span {
@@ -597,24 +560,7 @@ section {
 }
 
 
-/* Mobile */
 
-@media (max-width: 768px) {
-
-    .job-top,
-    .education-card {
-        flex-direction: column;
-    }
-
-    .job-date,
-    .education-date {
-        margin-top: .8rem;
-    }
-
-    .experience-card {
-        padding: 2rem;
-    }
-}
 
 .about .about-intro {
     background: var(--primary-bg-color);
@@ -856,36 +802,7 @@ section {
 }
 
 
-/* RESPONSIVE */
 
-@media (max-width: 991px) {
-
-    .certificates .image-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-
-@media (max-width: 600px) {
-
-    .certificates {
-        padding: 5rem 4%;
-    }
-
-    .certificates .image-container {
-        grid-template-columns: 1fr;
-    }
-
-    .certificates .image-container .box {
-        height: 25rem;
-    }
-
-    .certificates .heading {
-        font-size: 4rem;
-    }
-
-}
 
 
 /* =========================
@@ -1041,31 +958,6 @@ section {
     margin-top: 3rem;
 }
 
-
-/* Tablet */
-
-@media (max-width: 1000px) {
-
-    .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-
-/* Mobile */
-
-@media (max-width: 650px) {
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .projects .heading {
-        font-size: 3.5rem;
-    }
-
-}
 
 
 .projects .box-container {
@@ -1377,44 +1269,7 @@ section {
 }
 
 
-/* TABLET */
 
-@media (max-width: 991px) {
-
-    .contact-links {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .contact-main {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-
-/* MOBILE */
-
-@media (max-width: 600px) {
-
-    .contact {
-        padding: 4rem 2rem;
-    }
-
-    .contact-links {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-form-card .input-row {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-
-    .contact-form-card,
-    .connect-card {
-        padding: 2rem;
-    }
-
-}
 
 .footer {
     padding: 2.5rem 1rem;
@@ -1593,6 +1448,23 @@ menu .action:hover {
     pointer-events: auto;
 }
 
+/*THIS IS FOR CONNECT SECTION*/
+
+.connect-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.8rem;
+    margin-top:2rem;
+}
+
+.connect-tags span{
+    background:var(--secondary-bg-color);
+    color:var(--main-color);
+    padding:.7rem 1.2rem;
+    border-radius:2rem;
+    font-size:1.35rem;
+    font-weight:600;
+}
 
 
 
@@ -1606,7 +1478,7 @@ menu .action:hover {
 
 
 
-
+/*THIS IS FOR RESPONSIVE DESIGN*/
 
 /* media queries */
 
@@ -1623,6 +1495,8 @@ menu .action:hover {
 
 }
 
+/*THIS IS FOR HOME SECTION*/
+
 @media (max-width:768px) {
 
     .home .imag img {
@@ -1631,6 +1505,8 @@ menu .action:hover {
     }
 
 }
+
+/*THIS IS FOR PROJECTS SECTION*/
 
 @media (max-width:400px) {
 
@@ -1659,7 +1535,7 @@ menu .action:hover {
 
 }
 
-
+/*THIS IS FOR HERO SECTION*/
 
 @media (max-width: 600px){
 
@@ -1683,6 +1559,8 @@ menu .action:hover {
     }
 }
 
+/*THIS IS FOR CERTIFICATES SECTION*/
+
 @media (max-width: 600px) {
 
     .certificates .image-container {
@@ -1697,7 +1575,7 @@ menu .action:hover {
         padding: .8rem;
 
         background: var(--primary-bg-color);
-        border: .2rem solid var(--secondary-text-color);
+        border: .2rem solid var(--secondary-text-color);    /*remove this line if you don't want a border*/
         border-radius: .8rem;
 
         box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.12);
@@ -1716,18 +1594,223 @@ menu .action:hover {
 }
 
 
-.connect-tags{
-    display:flex;
-    flex-wrap:wrap;
-    gap:.8rem;
-    margin-top:2rem;
+
+
+
+/*THIS IS FOR CONTACT SECTION*/
+
+/* TABLET */
+
+@media (max-width: 991px) {
+
+    .contact-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-main {
+        grid-template-columns: 1fr;
+    }
+
 }
 
-.connect-tags span{
-    background:var(--secondary-bg-color);
-    color:var(--main-color);
-    padding:.7rem 1.2rem;
-    border-radius:2rem;
-    font-size:1.35rem;
-    font-weight:600;
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .contact {
+        padding: 4rem 2rem;
+    }
+
+    .contact-links {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form-card .input-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .contact-form-card,
+    .connect-card {
+        padding: 2rem;
+    }
+
 }
+
+
+
+/*THIS IS FOR PROJECTS SECTION*/
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects .heading {
+        font-size: 3.5rem;
+    }
+
+}
+
+
+
+/*THIS IS FOR CERTIFICATES SECTION */
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    .certificates .image-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .certificates {
+        padding: 5rem 4%;
+    }
+
+    .certificates .image-container {
+        grid-template-columns: 1fr;
+    }
+
+    .certificates .image-container .box {
+        height: 25rem;
+    }
+
+    .certificates .heading {
+        font-size: 4rem;
+    }
+
+}
+
+/*THIS IS FOR EDUCATION SECTION */
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .job-top,
+    .education-card {
+        flex-direction: column;
+    }
+
+    .job-date,
+    .education-date {
+        margin-top: .8rem;
+    }
+
+    .experience-card {
+        padding: 2rem;
+    }
+}
+
+
+
+/* =========================================
+   SHARE MENU - BORDERED SOCIAL ACTIONS
+========================================= */
+
+menu .action {
+    box-sizing: border-box !important;
+
+    border: .2rem solid var(--main-color) !important;
+    background: var(--primary-bg-color) !important;
+
+    display: grid !important;
+    place-items: center !important;
+
+    box-shadow: 0 .3rem .8rem rgba(0, 0, 0, 0.12);
+
+    transition:
+        transform .25s ease,
+        background-color .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+
+
+/* icon ko exact center me rakhega */
+menu .action i {
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+
+    display: block !important;
+
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+
+    color: var(--secondary-text-color);
+}
+
+
+/* Hover - Laptop/Desktop */
+menu .action:hover {
+    background: var(--secondary-bg-color) !important;
+    border-color: var(--main-color) !important;
+
+    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.18);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    menu .action {
+        border-width: .2rem !important;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    menu .action {
+        border: .2rem solid var(--main-color) !important;
+        box-shadow: 0 .25rem .6rem rgba(0, 0, 0, 0.12);
+    }
+
+}
+
+/* body.dark-theme menu .action {
+    border-color: var(--secondary-text-color) !important;
+    background: var(--primary-bg-color) !important;
+}
+
+body.dark-theme menu .action i {
+    color: var(--secondary-text-color) !important;
+}
+
+body.dark-theme menu .action:hover {
+    border-color: var(--main-color) !important;
+    background: var(--secondary-bg-color) !important;
+} */
+
+

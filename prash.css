@@ -1649,8 +1649,7 @@ menu .action:hover {
     .certificates .image-container .box img {
         width: 100%;
         overflow: hidden;
-        object-fit: cover;
-        Display: block;
+        
     }
 
     .contact .row form .inputBox input {
